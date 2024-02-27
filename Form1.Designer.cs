@@ -95,9 +95,9 @@
             // btn_Cong
             // 
             this.btn_Cong.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Cong.Location = new System.Drawing.Point(323, 213);
+            this.btn_Cong.Location = new System.Drawing.Point(323, 190);
             this.btn_Cong.Name = "btn_Cong";
-            this.btn_Cong.Size = new System.Drawing.Size(119, 46);
+            this.btn_Cong.Size = new System.Drawing.Size(121, 69);
             this.btn_Cong.TabIndex = 6;
             this.btn_Cong.Text = "Cộng";
             this.btn_Cong.UseVisualStyleBackColor = true;
@@ -106,9 +106,9 @@
             // btn_Tru
             // 
             this.btn_Tru.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Tru.Location = new System.Drawing.Point(184, 213);
+            this.btn_Tru.Location = new System.Drawing.Point(188, 190);
             this.btn_Tru.Name = "btn_Tru";
-            this.btn_Tru.Size = new System.Drawing.Size(119, 46);
+            this.btn_Tru.Size = new System.Drawing.Size(115, 69);
             this.btn_Tru.TabIndex = 7;
             this.btn_Tru.Text = "Trừ";
             this.btn_Tru.UseVisualStyleBackColor = true;
