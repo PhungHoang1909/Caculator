@@ -19,11 +19,20 @@ namespace Caculator
 
         private void button1_Click(object sender, EventArgs e)
         {
-            double a = double.Parse(textBox1.Text);
-            double b = double.Parse(textBox2.Text);
+            double a = double.Parse(txb_A.Text);
+            double b = double.Parse(txb_B.Text);
             double c = a + b;
 
-            textBox3.Text = c.ToString();
+            txb_KQ.Text = c.ToString();
+        }
+
+        private void btn_Tru_Click(object sender, EventArgs e)
+        {
+            double a = double.Parse(txb_A.Text);
+            double b = double.Parse(txb_B.Text);
+            double c = a - b;
+
+            txb_KQ.Text = c.ToString();
         }
     }
 }
